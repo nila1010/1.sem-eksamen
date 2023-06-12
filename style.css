@@ -269,7 +269,7 @@ nav li a:hover {
 #prev6:hover,
 #prev7:hover,
 #prev8:hover {
-  scale: 1.4;
+  transform: scale(1.4);
 }
 
 #next,
