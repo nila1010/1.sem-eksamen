@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://use.typekit.net/wch2uqp.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Animation</title>
+</head>
+
+<body>
+    <header>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <nav>
+            <a class="logo" href="index.html"><img src="/imgs/logo.png" alt="logo"></a>
+            <div id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navuldispno">
+                <li><a href="web.html">Grundlæggende web</a></li>
+                <li><a href="ux.html">UX</a></li>
+                <li><a class="active" href="animation.html">Animation</a></li>
+                <li><a href="indhold.html">Indhold</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="cirkel1" src="imgs/SVG/cirkel.svg" alt="cirkel">
+        <img class="cirkel2" src="imgs/SVG/cirkel.svg" alt="cirkel">
+        <article class="placering1">
+            <h1>Animation</h1>
+            <p>I dette tema skulle vi producere vores eget spil for at lære grundlæggende JavaScript.
+            </p>
+            <p>Min største udfordring i dette tema var at få alle mine funktioner til at virke og spille sammen, især
+                var array en udfordring da vi ikke fik så meget undervisning i dette og det var lidt at prøve sig frem.
+                Det galt om at have en logisk tankegang og gå metodisk til værks og få en ting til at virke af gangen
+                før man gik videre til den næste.
+            </p>
+        </article>
+        <article class="placering2">
+            <h2>Designproces</h2>
+            <p>Processen startede
+                med
+                ideudvikling til et spil, aktivitetsdiagram samt hvilken stil spillet skulle være designet i.
+            </p>
+            <p>Jeg valgte at fokusere på en lidt animeret stil inspireret af Baby bias og solid-drawing. Jeg
+                implementerede også Bouba og Kiki design princippet for at gøre forskel på min gode og onde karakterer.
+            </p>
+            <p>I designprocessen startede jeg med at lave papirsprototyper for så at arbejde videre med dem og rentegne
+                i Illustrator.
+                Udfordringen i den valgte stilart var at der ikke kunne laves almindelige skygger og strokes men det
+                skulle tegnes og bruge gradienter for at give den ønskede effekt.
+            </p>
+            <p>Da jeg havde tegnet, mine elementer var det tid til at kode spillet. Jeg havde valgt at udfordre mig selv
+                ved at lave et wack a mole spil, med henholdsvis mus og rotter som skulle komme op af specifikke huller.
+            </p>
+            <div class="flexani">
+                <h3>Inspirationsbilleder</h3>
+                <div>
+                    <img src="imgs/animation/design/inspiration/mus.webp" alt="mus">
+                    <img src="imgs/animation/design/inspiration/rotter.webp" alt="rotte">
+                    <img src="imgs/animation/design/inspiration/tivoli.webp" alt="">
+                </div>
+            </div>
+            <div class="flexslides">
+                <section class="slider-wrapper">
+                    <h3>Skitser</h3>
+                    <img id="prev4" src="imgs/SVG/grayarrow.svg" alt="grayarrow">
+                    <img id="next4" src="imgs/SVG/greenarrow.svg" alt="greenarrow">
+                    <ul class="slides-container" id="slides-container4">
+                        <li class="slides4"><img src="imgs/animation/design/skitser/aniskitse1.webp" alt="skitse1"></li>
+                        <li class="slides4"><img src="imgs/animation/design/skitser/aniskitse2.webp" alt="skitse2"></li>
+                        <li class="slides4"><img src="imgs/animation/design/skitser/aniskitse3.webp" alt="skitse3"></li>
+                        <li class="slides4"><img src="imgs/animation/design/skitser/aniskitse4.webp" alt="skitse4"></li>
+                    </ul>
+                </section>
+                <section class="slider-wrapper">
+                    <h3>Rentegnede elementer</h3>
+                    <img id="prev5" src="imgs/SVG/grayarrow.svg" alt="grayarrow">
+                    <img id="next5" src="imgs/SVG/greenarrow.svg" alt="greenarrow">
+                    <ul class="slides-container" id="slides-container5">
+                        <li class="slides5"><img src="imgs/animation/design/rentegning/start.webp" alt="start screen">
+                        </li>
+                        <li class="slides5"><img src="imgs/animation/design/rentegning/spil3.webp" alt="game screen">
+                        </li>
+                        <li class="slides5"><img src="imgs/animation/design/rentegning/vinder2.webp" alt="win screen">
+                        </li>
+                        <li class="slides5"><img src="imgs/animation/design/rentegning/gameover.webp"
+                                alt="gameover screen"></li>
+                        <li class="slides5"><img src="imgs/animation/design/rentegning/elementer.webp" alt="elements">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <a class="knap4 knapstyle" href="https://nila10.dk/kea/04_animation/website">LINK TIL SPIL</a>
+        </article>
+        <article class="placering3">
+            <h2>Kodning</h2>
+            <p>I kodningsprocessen lærte jeg hvordan man kan lave css-animationer samt bruge JavaScript til at aktivere
+                de forskellige animationer.
+            </p>
+            <p> For at kode spillet brugte jeg JavaScript at fjerne og tilføje forskellige classes til mine
+                elementer, bruge if or else, math-random, forskellige events som load, animationend og click samt array
+                for at mine elementer ikke skulle poppe up det samme sted. Via inspector – consol i browseren kunne jeg
+                se hvordan koden opførte sig, fejlsøge og rette til.
+            </p>
+            <p>Inden kodningsprocessen havde jeg lavet et state machine diagram for at havde et overblik over hvordan
+                spillet skulle kodes og rettede det løbende i processen. Til sidst producerede jeg mine egne lyde til
+                spillet via Audition samt en underlægnings melodi som jeg havde sørget for var royalfree og krediterede
+                kunstneren.
+            </p>
+
+            <div class="gridweb">
+                <h3>State Machin Diagram</h3>
+                <h3>Aktivitetsdiagram</h3>
+                <img src="imgs/animation/kodning/nicolai_state_machine.webp" alt="state machin diagram">
+                <img src="imgs/animation/kodning/aktivitetsdiagram.webp" alt="Aktivitetsdiagram">
+            </div>
+        </article>
+
+
+    </main>
+    <footer>
+        <div class="line4"></div>
+        <div class="line3"></div>
+        <div>
+            <h1>Nicolai Fisker</h1>
+            <h2>31 25 58 27</h2>
+            <h2>nila0001@stud.kea.dk</h2>
+        </div>
+    </footer>
+    <script src="scriptani.js"></script>
+    <script src="burger.js"></script>
+
+</body>
+
+</html>

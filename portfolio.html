@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://use.typekit.net/wch2uqp.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <nav>
+            <a class="logo" href="index.html"><img src="imgs/logo.png" alt="logo"></a>
+            <div id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navuldispno">
+                <li><a href="web.html">Grundlæggende web</a></li>
+                <li><a href="ux.html">UX</a></li>
+                <li><a href="animation.html">Animation</a></li>
+                <li><a href="indhold.html">Indhold</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="cirkel1" src="imgs/SVG/cirkel3.svg" alt="cirkel">
+        <img class="cirkel2" src="imgs/SVG/cirkel3.svg" alt="cirkel">
+        <article class="placering1">
+            <h1>Portfolio</h1>
+            <p>Som eksamensprojekt, har vi fået til opgave at udforme et portfolio som skal fremvise hvad vi har lavet
+                på 1. semester
+                samt demonstrere hvilken viden, færdigheder og kompetencer vi har tilegnet os.
+            </p>
+        </article>
+        <article class="placering2">
+            <h2>Designproces</h2>
+            <p>Jeg startede processen med at lave en hurtigt designsprint for mig selv for at komme i gang med at
+                ideudvikle. Jeg
+                lavede lighthouse demos for at få inspiration til de ideer jeg allerede havde. Derefter lavede jeg
+                skitser og crazy 8 på
+                min forside og endte ud med en solutionssketch. Jeg valgte ikke at lave nogle decide proces da jeg var
+                alene om det og
+                derfor tog min solutionsketch med til udvikling af min prototype.
+            </p>
+            <p>Inden jeg begyndte min prototype ville jeg gerne have et overblik over hvilket indhold der skulle være på
+                sitet, for få
+                en bedre fornemmelse af hvordan jeg skulle stille det op.
+            </p>
+            <p>Efter jeg havde lave udkast til mit indhold, lavede jeg et moodboard for at have lidt inspiration til
+                hvilke fonte,
+                farver og stil jeg skulle lave i min prototype. Her valgte værdiord som minimalisme, art og creative da
+                jeg gerne ville
+                prøve at lave noget jeg ikke havde prøvet tidligere på 1.semester.
+            </p>
+            <p>Efter et par forsøg med at lave prototype, kom jeg frem til et layout og design som jeg ville gå videre
+                med. I processen
+                fik jeg også lavet en styletile som automatisk tog form da jeg lavede min prototype hvor jeg fokusere på
+                et
+                minimalistisk design, med afdæmpede farver og prøvet at holde min accentfarve inden for samme spektrum
+                men stadig skille
+                sig nok ud.
+            </p>
+            <p>Jeg har brugt loven om lighed og nærhed til opsætning af mit. Jeg har valgt at bruge 2 sans serif fonte,
+                Fjalle one til
+                mine headers og navigation fordi den er designet til at have et hint af displayfont som gør den lidt
+                mere unik men
+                stadig designet til at være læsbar og fungere i forskellige font størrelser.
+            </p>
+            <p>Jeg valgte at lave prototypen så tæt på det oprindelige design som muligt, da jeg allerede tidligt i
+                processen ville
+                lave bruger test. Jeg lavede en 5 sek test samt Bert test på for at se om jeg havde ramt den stil jeg
+                gerne ville have.
+            </p>
+            <div class="flexslides">
+                <section class="slider-wrapper">
+                    <h3>Skitser</h3>
+                    <img id="prev7" src="imgs/SVG/grayarrow.svg" alt="grayarrow">
+                    <img id="next7" src="imgs/SVG/greenarrow.svg" alt="greenarrow">
+                    <ul class="slides-container" id="slides-container7">
+                        <li class="slides7"><img src="imgs/portfolio/skitser/skitse1port.webp" alt="skitser"></li>
+                        <li class="slides7"><img src="imgs/portfolio/skitser/crazyport.webp" alt="crazy8"></li>
+                        <li class="slides7"><img src="imgs/portfolio/skitser/solutionport.webp" alt="solutionsketch">
+                        </li>
+                    </ul>
+                </section>
+                <section class="slider-wrapper">
+                    <h3>Moodboard &amp; Styletile</h3>
+                    <img id="prev8" src="imgs/SVG/grayarrow.svg" alt="grayarrow">
+                    <img id="next8" src="imgs/SVG/greenarrow.svg" alt="greenarrow">
+                    <ul class="slides-container" id="slides-container8">
+                        <li class="slides8"><img src="imgs/portfolio/mood_style_mock/Moodboard.webp"
+                                alt="moodboard portfolio"></li>
+                        <li class="slides8"><img src="imgs/portfolio/mood_style_mock/style.webp"
+                                alt="styletile portfolio"></li>
+                    </ul>
+                </section>
+                <div>
+                    <h3>Mockup</h3>
+                    <img src="imgs/portfolio/mood_style_mock/mockupport.webp" alt="mockup portfolio">
+                </div>
+            </div>
+        </article>
+        <article class="placering3">
+            <h2>Kodning</h2>
+            <p>Under kodningen af sitet, ville jeg gerne prøve at lave så bæredygtig kodning som muligt. Så jeg bruger
+                mange af de
+                samme styles på de forskellige sider, og forsøgte at lave så få specifikke classes som muligt.
+            </p>
+            <p>Jeg har gjort brug af det kodning vi har lært på 1. semester, i form af HTML stil struktur, CSS til at
+                style og lave
+                animationer samt JavaScript til at gøre sitet interaktivt i form af caruseller hvor jeg har gjort brug
+                af EventListners
+                samt konstanter og indbyggede funktioner i JavaScript, til burgermenuen har jeg gjort brug af if or
+                else.
+            </p>
+            <p>
+                Jeg brugte lang tid på at lave den første prototype fordi jeg havde ”låst” mig fast på et layout baseret
+                på mine
+                skitser, da mængden af indhold og mine tanker ikke stemte helt overens. Til næste gang vil jeg nok sørge
+                for at få et
+                overblik over indholdet før jeg går i gang med designsprinten.
+            </p>
+            <div class="gridweb4">
+                <h3>Kodning</h3>
+                <img src="imgs/portfolio/kodning/kode1.webp" alt="kode billede">
+                <img src="imgs/portfolio/kodning/kode2.webp" alt="kode billede2">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="line4"></div>
+        <div class="line3"></div>
+        <div>
+            <h1>Nicolai Fisker</h1>
+            <h2>31 25 58 27</h2>
+            <h2>nila0001@stud.kea.dk</h2>
+        </div>
+    </footer>
+    <script src="scriptport.js"></script>
+    <script src="burger.js"></script>
+
+</body>
+
+</html>
