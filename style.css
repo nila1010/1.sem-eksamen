@@ -300,6 +300,7 @@ nav li a:hover {
 #next7:hover,
 #next8:hover {
   transform: scale(1.4);
+  transform: rotate(180deg);
 }
 
 .slides1,
