@@ -43,8 +43,3 @@ prev3.addEventListener("click", () => {
   const slideWidth = slide3.clientWidth;
   container3.scrollLeft -= slideWidth;
 });
-
-next4.addEventListener("click", () => {
-  const slideWidth = slide4.clientWidth;
-  container4.scrollLeft += slideWidth;
-});
