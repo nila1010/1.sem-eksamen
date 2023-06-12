@@ -208,6 +208,12 @@ nav li a:hover {
   padding-right: 16%;
 }
 
+.placering2index {
+  margin: -6% 0 0 50%;
+  border-top: 4px solid var(--turkies);
+  padding-right: 16%;
+}
+
 .placering3 {
   border-top: 4px solid var(--turkies);
   margin: 8% 50% 6% 0;
@@ -333,6 +339,7 @@ dd {
   color: var(--blue);
   margin-bottom: 1rem;
   font-size: 0.8rem;
+  font-style: italic;
 }
 
 ul {
