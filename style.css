@@ -389,6 +389,12 @@ footer h2 {
   width: 100%;
 }
 
+footer img {
+  aspect-ratio: 1/1;
+  width: 12%;
+  margin: 2% 0 0 45%;
+}
+
 /*INDEX
 ------------------------------*/
 .placering1 img {
@@ -863,8 +869,25 @@ video {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) and (min-width: 801px) {
   nav li a {
     font-size: 1.3rem;
+  }
+
+  footer h1 {
+    margin: 1rem 0 0.5rem 80%;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  footer h2 {
+    margin: 0 0 0.2rem 80%;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  footer img {
+    aspect-ratio: 1/1;
+    width: 12%;
+    margin: 2% 0 0 45%;
   }
 }
