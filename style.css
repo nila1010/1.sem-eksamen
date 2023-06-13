@@ -250,8 +250,7 @@ nav li a:hover {
 #prev4,
 #prev5,
 #prev7,
-#prev8,
-#prev9 {
+#prev8 {
   position: absolute;
   left: 32%;
   top: 92%;
@@ -259,7 +258,8 @@ nav li a:hover {
   height: 15%;
 }
 
-#prev6 {
+#prev6,
+#prev9 {
   position: absolute;
   left: 38%;
   top: 92%;
@@ -287,8 +287,7 @@ nav li a:hover {
 #next4,
 #next5,
 #next7,
-#next8,
-#next9 {
+#next8 {
   position: absolute;
   left: 58%;
   top: 92%;
@@ -297,7 +296,8 @@ nav li a:hover {
   transform: rotate(180deg);
 }
 
-#next6 {
+#next6,
+#next9 {
   position: absolute;
   left: 53%;
   top: 92%;
@@ -582,6 +582,10 @@ video {
   width: 100%;
   grid-row: 2;
   box-shadow: 3px 15px 30px -7px #1d3240;
+}
+
+.gridweb4 .slider-wrapper {
+  grid-row: 3;
 }
 
 .flexslides img:last-child {
