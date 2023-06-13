@@ -5,7 +5,7 @@
   src: url("fjallaone-regular-webfont.woff") format("woff");
 }
 
-body {
+html {
   /*FONTE*/
   --h: "fjalla_oneregular", sans-serif;
   --p: "rig-sans", sans-serif;
