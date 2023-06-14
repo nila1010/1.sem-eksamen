@@ -473,6 +473,15 @@ footer h2 {
   padding: 3% 4% 1.8% 4%;
 }
 
+.knap6 {
+  padding: 3.8% 5% 2.5% 5%;
+  margin-left: 27%;
+  font-size: 1.8cqw;
+}
+
+.knap6plac {
+  margin-top: 15%;
+}
 /*ANIMATION
 --------------------------------*/
 
@@ -804,6 +813,16 @@ video {
   .knap3 {
     font-size: 4.8cqw;
     padding: 3% 4% 2% 4%;
+  }
+
+  .knap6 {
+    padding: 3.8% 5% 2.5% 5%;
+    margin-left: 21%;
+    font-size: 4.8cqw;
+  }
+
+  .knap6plac {
+    margin-top: 15%;
   }
 
   /*ANIMATION
